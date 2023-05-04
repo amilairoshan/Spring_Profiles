@@ -1,0 +1,11 @@
+profile:
+    qa:
+        url: http://qa.com
+        database: qaDB
+    prod:
+        url: http://prod.com
+        database: prodDB
+
+spring:
+  profiles:
+    active: prod       
